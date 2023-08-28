@@ -39,3 +39,10 @@ Using the list of requirements in the section below, create plans or diagrams th
 
 ## Example application
 ![](./_assets/address-book.gif)
+
+
+Link to state model:
+https://i.imgur.com/LHH6Wyi.png
+
+Link to component tree (including what needs to happen on each component):
+https://i.imgur.com/0HHr6qE.png
