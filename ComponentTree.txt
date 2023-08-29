@@ -1,2 +1,6 @@
+Link to component tree:
+https://i.imgur.com/aUjqZvv.png
+
 Link to component tree (including what needs to happen on each component):
 https://i.imgur.com/oZJre1o.png
+
