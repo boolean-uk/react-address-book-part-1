@@ -1,0 +1,15 @@
+Initial State
+
+The user has just opened the contact book
+
+Options:
+
+- Option 1: Click on contacts list
+  - From: Initial State
+  - To: Contacts list
+  - Actions: Load all contacts as a list
+
+- Option 2: Click on "Create a contact"
+  - From: Initial State
+  - To: Create contact form
+  - Actions: Display a form for creating a new contact

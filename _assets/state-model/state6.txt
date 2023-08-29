@@ -1,0 +1,20 @@
+Update a Contact's Information
+
+The user can update the information of a specific contact
+
+Options:
+
+- Option 1: Click on "Edit" for a contact
+    - From: View Contact Info
+    - To: View Contact Info
+    - Actions: Load an updating form so the user can fill in the fields
+
+- Option 2: Submit Contact Update Form
+    - From: View Contact Info
+    - To: View Contact Info
+    - Actions: Send updated contact data to the API, then load and display the updated contact information
+
+Option 3: Cancel Contact Update Form
+    - From: View Contact Info
+    - To: Contacts list
+    - Actions: Discard the changes and navigate back to contacts list

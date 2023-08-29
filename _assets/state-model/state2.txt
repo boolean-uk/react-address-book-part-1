@@ -1,0 +1,10 @@
+View Contact Info
+
+The user is viewing info of a specific contact
+
+Options:
+
+- Option 1: Click at 'View' link to view contact info
+  - From: Contacts list
+  - To: View contact info
+  - Actions: Load contact details (first name, last name, street, city)
