@@ -1,0 +1,24 @@
+State Model Description
+App
+State:
+contacts: Array of contact objects.
+Responsibilities: Maintains the list of all contacts and renders the main structure including menu and dashboard.
+Menu
+State: None
+Responsibilities: Provides navigation links. Does not hold or manage any state.
+Dashboard
+State: None
+Responsibilities: Displays the contact list and contact details based on routing. Receives contacts as props from App.
+ContactList
+State: None
+Responsibilities: Renders a list of "ContactItem" components. Receives contacts as props from Dashboard.
+ContactItem
+State: None
+Responsibilities: Displays individual contact information like the name and a link to view more details. Receives individual contact object as props from ContactList.
+ContactDetails
+State: None
+Responsibilities: Displays detailed information for a single contact. Receives contact object as props from App (based on routing).
+AddContact
+State:
+newContact: Object with keys firstName, lastName, address.street, address.city.
+Responsibilities: Provides a form to create a new contact. When submitted, updates the contacts state in App.
