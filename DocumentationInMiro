@@ -1,3 +1,14 @@
 https://miro.com/app/board/uXjVNRlVfzg=/
 ![Alt text](plan-1.jpg)
 ![Alt text](plan-2.jpg)
+
+**File / Folder Tree**
+
+Components
+  ContactList
+    ContactListItem
+  ContactProfile
+  AddContact
+  EditContact
+App.jsx
+Main.jsx
