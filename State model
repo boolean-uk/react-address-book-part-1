@@ -1,0 +1,26 @@
+// all data from api
+"contacts": [
+    {
+        "firstName": "Rick",
+        "lastName": "Sanchez",
+        "street": "Morty Lane",
+        "city": "Jerryville",
+        "gender": "Male",
+        "email": "rick@sanchez.com",
+        "jobTitle": "Scientist",
+        "latitude": 42,
+        "longitude": 629,
+        "id": 1
+    }
+]
+
+// required info for exercise
+"contacts": [
+    {
+        "firstName": "Rick",
+        "lastName": "Sanchez",
+        "street": "Morty Lane",
+        "city": "Jerryville",
+        "id": 1
+    }
+]
