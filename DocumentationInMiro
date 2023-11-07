@@ -5,10 +5,10 @@ https://miro.com/app/board/uXjVNRlVfzg=/
 **File / Folder Tree**
 
 Components
-  ContactList
-    ContactListItem
-  ContactProfile
-  AddContact
-  EditContact
+  ContactList.jsx
+  ContactListItem.jsx
+  ContactProfile.jsx
+  AddContact.jsx
+  EditContact.jsx
 App.jsx
 Main.jsx
