@@ -1,0 +1,14 @@
+Addresses = [
+    {        	
+		"firstName": "Gigi",
+		"lastName": "Rossi",
+		"gender": "Male",
+		"email": "Gigicantante@yahoo.com",
+		"jobTitle": "General Manager",
+		"street": "Red Estate",
+		"city": "Las Vegas",
+		"latitude": 36.1881,
+		"longitude":  -115.1764,
+		"id": 1
+    }
+    ]
