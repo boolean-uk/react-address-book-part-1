@@ -1,0 +1,42 @@
+{
+    "id": {
+        "type": "String",
+        "required": "True"
+    },
+    "firstName": {
+        "type": "String",
+        "required": "True"
+    },
+    "lastName": {
+        "type": "String",
+        "required": "True"
+    },
+    "street": {
+        "type": "String",
+        "required": "False"
+    },
+    "city": {
+        "type": "String",
+        "required": "False"
+    },
+    "gender": {
+        "type": "String",
+        "required": "False"
+    },
+    "email": {
+        "type": "String",
+        "required": "True"
+    },
+    "jobTitle": {
+        "type": "String",
+        "required": "False"
+    },
+    "latitude": {
+        "type": "Number",
+        "required": "False"
+    },
+    "longitude": {
+        "type": "Number",
+        "required": "False"
+    }
+}
