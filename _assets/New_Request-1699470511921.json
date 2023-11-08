@@ -1,0 +1,185 @@
+
+// https://boolean-api-server.fly.dev/loza01/contact/ 
+// all data from API
+[
+    {
+        "firstName": "Jeffry",
+        "lastName": "Gottlieb",
+        "gender": "Genderflux",
+        "email": "Arlie.OHara@gmail.com",
+        "jobTitle": "Corporate Tactics Technician",
+        "street": "Quarry Road",
+        "city": "East Alice",
+        "latitude": 77.543,
+        "longitude": -89.3329,
+        "id": 1
+    },
+    {
+        "firstName": "Gilbert",
+        "lastName": "Mayert",
+        "gender": "Transexual female",
+        "email": "Loma49@yahoo.com",
+        "jobTitle": "Investor Accounts Representative",
+        "street": "Center Road",
+        "city": "Grand Prairie",
+        "latitude": 79.6934,
+        "longitude": 46.6798,
+        "id": 2
+    },
+    {
+        "firstName": "Carlee",
+        "lastName": "White",
+        "gender": "Transexual person",
+        "email": "Verlie_Carroll24@gmail.com",
+        "jobTitle": "Chief Research Developer",
+        "street": "Medhurst Hills",
+        "city": "East Lesleybury",
+        "latitude": 72.8786,
+        "longitude": -165.2044,
+        "id": 3
+    },
+    {
+        "firstName": "Adolfo",
+        "lastName": "Maggio",
+        "gender": "Intersex man",
+        "email": "Carlos.Schneider@gmail.com",
+        "jobTitle": "Regional Usability Architect",
+        "street": "Stehr Gardens",
+        "city": "Cummeratacester",
+        "latitude": 79.3004,
+        "longitude": -60.8917,
+        "id": 4
+    },
+    {
+        "firstName": "Gardner",
+        "lastName": "Johnston",
+        "gender": "Cis male",
+        "email": "Rhoda.Schneider@gmail.com",
+        "jobTitle": "Product Applications Agent",
+        "street": "S Park Street",
+        "city": "East Gretacester",
+        "latitude": -52.346,
+        "longitude": 130.768,
+        "id": 5
+    },
+    {
+        "firstName": "Caroline",
+        "lastName": "Douglas",
+        "gender": "Intersex person",
+        "email": "Eldred_Walsh36@gmail.com",
+        "jobTitle": "Future Branding Technician",
+        "street": "N Union Street",
+        "city": "Trenton",
+        "latitude": -42.2573,
+        "longitude": -94.3235,
+        "id": 6
+    },
+    {
+        "firstName": "Caleb",
+        "lastName": "Parisian",
+        "gender": "Demiflux",
+        "email": "Brooklyn83@yahoo.com",
+        "jobTitle": "Future Integration Planner",
+        "street": "Wellington Street",
+        "city": "West Mckenna",
+        "latitude": -31.3569,
+        "longitude": 108.5803,
+        "id": 7
+    },
+    {
+        "firstName": "Cruz",
+        "lastName": "Hermann-Ferry",
+        "gender": "Intersex person",
+        "email": "Conner.Davis@hotmail.com",
+        "jobTitle": "Product Paradigm Coordinator",
+        "street": "E Park Avenue",
+        "city": "Finnville",
+        "latitude": -22.3042,
+        "longitude": 15.331,
+        "id": 8
+    },
+    {
+        "firstName": "Stefanie",
+        "lastName": "Kohler",
+        "gender": "Gender fluid",
+        "email": "Jacinto.Bergnaum61@gmail.com",
+        "jobTitle": "Senior Integration Engineer",
+        "street": "Rowe Route",
+        "city": "Port Marlinport",
+        "latitude": 72.016,
+        "longitude": -148.0378,
+        "id": 9
+    },
+    {
+        "firstName": "Freida",
+        "lastName": "Hudson",
+        "gender": "Demigender",
+        "email": "Macy.Williamson49@hotmail.com",
+        "jobTitle": "Principal Accounts Director",
+        "street": "Lodge Lane",
+        "city": "Heaneyboro",
+        "latitude": 0.8932,
+        "longitude": 168.3604,
+        "id": 10
+    },
+    {
+        "firstName": "Hiram",
+        "lastName": "Senger",
+        "gender": "Cisgender man",
+        "email": "Chaim_Stamm@yahoo.com",
+        "jobTitle": "Global Security Executive",
+        "street": "Hudson Crossing",
+        "city": "Juliafurt",
+        "latitude": 63.632,
+        "longitude": 76.9977,
+        "id": 11
+    },
+    {
+        "firstName": "Weston",
+        "lastName": "Conroy",
+        "gender": "Demi-boy",
+        "email": "Oren.Wisoky19@yahoo.com",
+        "jobTitle": "Human Group Director",
+        "street": "Arlie Divide",
+        "city": "Myriamton",
+        "latitude": 18.3768,
+        "longitude": 92.8633,
+        "id": 12
+    },
+    {
+        "firstName": "Breanna",
+        "lastName": "D'Amore",
+        "gender": "Cisgender male",
+        "email": "Clair_Mayert@gmail.com",
+        "jobTitle": "Future Communications Director",
+        "street": "S 6th Street",
+        "city": "Spencermouth",
+        "latitude": -83.7534,
+        "longitude": -179.3271,
+        "id": 13
+    },
+    {
+        "firstName": "Delia",
+        "lastName": "Stoltenberg",
+        "gender": "Trigender",
+        "email": "Marques_Jenkins@yahoo.com",
+        "jobTitle": "International Infrastructure Administrator",
+        "street": "Enrico Branch",
+        "city": "North Kevonchester",
+        "latitude": 41.7451,
+        "longitude": -134.7506,
+        "id": 14
+    },
+    {
+        "firstName": "Ken",
+        "lastName": "Zemlak",
+        "gender": "Transexual male",
+        "email": "Keagan8@yahoo.com",
+        "jobTitle": "Senior Infrastructure Supervisor",
+        "street": "Nitzsche Burg",
+        "city": "West Eduardofurt",
+        "latitude": 26.2371,
+        "longitude": 90.9464,
+        "id": 15
+    }
+]
