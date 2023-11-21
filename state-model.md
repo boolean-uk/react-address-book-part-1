@@ -46,3 +46,22 @@ Description: Indication that there was an issue while saving the contact details
 
 Transitions:
 1. Return to Create Contact Form
+
+
+<App>
+├── <Dashboard>
+│   ├── <ContactList>
+│   │   ├── <ContactItem>
+│   │   │   ├── Displays First and Last Name
+│   │   │   ├── onClick -> View Contact Details
+│   │   │   └── ...
+│   │   └── ...
+│   └── ...
+├── <ContactDetails>
+│   ├── Displays First and Last Name, Street, and City
+│   └── onClick -> Return to Dashboard
+└── <CreateContactForm>
+    ├── Form Inputs: First Name, Last Name, Street, City
+    │   ├── onSubmit -> Submit Contact Details
+    │   └── ...
+    └── ...
