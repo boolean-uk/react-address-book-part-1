@@ -1,0 +1,39 @@
+#State Model
+
+contact object:
+{
+    id: unique int
+    firstName: string
+    lastName: string
+    street: string
+    city: string
+}
+
+#Component Tree
+
+App{
+    state Contacts: Array of contact objects.
+    Navbar for links to different parts of the app.
+    run a fetch on contacts when we visit this page.
+
+    ContactList{ for route /contacts
+        <ul> with ContactListItem as elements in list
+        ContactListItem{
+            basic layout for displaying the first and last names of contacts in Contacts array.
+        }
+
+    }
+    ContactProfile{ for route /contact/:id
+        state Contact: stores currently viewed Contact by id
+        runs fetch to get right contact info upon loading page
+        use params to get id
+
+    }
+    CreateContact{ for route /create
+        state Form: Object that stores info to create a new contact.
+
+        submit: attemps to create a contact with the current information in Form.
+                On success: navigate to ContactList.
+                On fail: Display errors
+    }
+}
