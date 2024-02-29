@@ -22,13 +22,15 @@ App
 MenuSidebar
 
 - Press buttons/links to navigate the page
+- Fetches data from api
+- The Home page
 - Should always show
+- Holds the state contacts
 
 ContactListPage
 
 - Shows all your current contacts and a button/link to ContactInfoPage
 - This info is first and last-name
-- Holds the state contacts
 - This should be the "/contacts" route
 
 Contact
