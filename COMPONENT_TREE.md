@@ -31,6 +31,11 @@ ContactListPage
 - Holds the state contacts
 - This should be the "/" route
 
+Contact
+
+- Holds the individual contact for displaying in ContactListPage
+- Has an object from the contacts state
+
 ContactInfoPage
 
 - Shows more information about this.contact
