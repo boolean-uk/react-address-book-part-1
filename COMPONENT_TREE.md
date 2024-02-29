@@ -29,7 +29,7 @@ ContactListPage
 - Shows all your current contacts and a button/link to ContactInfoPage
 - This info is first and last-name
 - Holds the state contacts
-- This should be the "/" route
+- This should be the "/contacts" route
 
 Contact
 
@@ -39,7 +39,7 @@ Contact
 ContactInfoPage
 
 - Shows more information about this.contact
-- Route: "/:id"
+- Route: "/contacts/:id"
 
 NewContactPage
 
@@ -52,4 +52,4 @@ NewContactPage
 4.  Street
 
 - Route: "/new_contact"
-- When added, back to "/" when pressing submit button
+- When added, back to "/contacts" when pressing submit button
