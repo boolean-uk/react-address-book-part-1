@@ -3,9 +3,9 @@
 Contains state for all contacts. passes all contacts to Dashboard. includes header with a link back to dashboard
 
 ## Dashboard
-Displays all contacts, has links to the OpenProfile under each contact, and a button that opens CreateContact
+Displays all contacts, has links to the ContactProfile under each contact, and a button that opens CreateContact
 
-## OpenProfile
+## ContactProfile
 Takes a single contact as prop, displays info from that contact,
 
 ## CreateContact
