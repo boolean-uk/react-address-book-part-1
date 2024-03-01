@@ -1,7 +1,8 @@
 # State model for App 
 ```js
 {
-  [contacts, setContacts] = useState([]) // Information about contacts as fetched from API, will be passed to other components as props
+  // Information about contacts as fetched from API, will be passed to other components as props
+  [contacts, setContacts] = useState([]) 
   // Each contact in contacts should contain the following information:
   {
     firstName: string,
@@ -10,6 +11,25 @@
     city: string,
   }
 }
+```
+# State model for Dashboard
+Should keep track of `contacts` to pass down to `ContactList`.
+Should contain `ContactList`.
+Path "/"
+
+# State model for ContactList
+Should contain a list of `ContactListItem` based on `contacts` passed in as props.
+
+# State model of ContactListItem
+Should contain information on a `contact` passed as prop from `ContactList`.
+Information should be of form:
+```js
+  {
+    firstName: string,
+    lastName: string,
+    street: string,
+    city: string,
+  }
 ```
 
 # State model for ContactDetails
@@ -25,6 +45,7 @@
   }
 }
 ```
+Path "/contact/:id"
 
 # State model for CreateContact
 ```js
@@ -39,3 +60,4 @@
   [form, setForm] = useState(formStructure) // Keep track of updates made to the form
 }
 ```
+Path "/create"
