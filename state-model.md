@@ -7,6 +7,8 @@ An array of contacts in JSON format
 ## Contact
 
 A contact in JSON format
+
+```json
 {
     "firstname": string,
     "lastName": string,
@@ -20,3 +22,4 @@ A contact in JSON format
     "favouriteColour": string,
     "profileImage": string
 }
+```
