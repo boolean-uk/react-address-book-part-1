@@ -2,6 +2,13 @@
 ```js
 {
   [contacts, setContacts] = useState([]) // Information about contacts as fetched from API, will be passed to other components as props
+  // Each contact in contacts should contain the following information:
+  {
+    firstName: string,
+    lastName: string,
+    street: string,
+    city: string,
+  }
 }
 ```
 
@@ -9,6 +16,13 @@
 ```js
 {
   { contactId } = useParams(); // Get the ID of the user to display based on url
+  // Should contain information on a contact based on contactId
+  contact = {
+    firstName: '',
+    lastName: '',
+    street: '',
+    city: '',
+  }
 }
 ```
 
