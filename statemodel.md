@@ -1,8 +1,10 @@
 # State model for App 
 ```js
 {
-  // Information about contacts as fetched from API, will be passed to other components as props
-  [contacts, setContacts] = useState([]) 
+  {
+  contacts: [], // Information about contacts as fetched from API, will be passed to other components as props
+  setContacts: Function, // Function to update the contacts state
+  }
   // Each contact in contacts should contain the following information:
   {
     firstName: string,
@@ -13,36 +15,37 @@
 }
 ```
 # State model for Dashboard
-Should keep track of `contacts` to pass down to `ContactList`.
 Should contain `ContactList`.
 Path "/"
 
 # State model for ContactList
-Should contain a list of `ContactListItem` based on `contacts` passed in as props.
+```js
+{
+  contacts: [], // List of contacts passed in as props
+}
+```
+Should contain a list of `ContactListItem`.
 
 # State model of ContactListItem
-Should contain information on a `contact` passed as prop from `ContactList`.
-Information should be of form:
 ```js
-  {
+  contact: {
     firstName: string,
     lastName: string,
     street: string,
     city: string,
-  }
+  } // Information on a contact passed as prop from ContactList
 ```
 
 # State model for ContactDetails
 ```js
 {
-  { contactId } = useParams(); // Get the ID of the user to display based on url
-  // Should contain information on a contact based on contactId
-  contact = {
+  contactId // The ID of the user to display based on url (useParams)
+  contact: {
     firstName: '',
     lastName: '',
     street: '',
     city: '',
-  }
+  }, // Information on a contact based on contactId
 }
 ```
 Path "/contact/:id"
@@ -57,7 +60,8 @@ Path "/contact/:id"
     city: '',
   } // The structure of the form, initialized as empty.
 
-  [form, setForm] = useState(formStructure) // Keep track of updates made to the form
+  form: formStructure, // Keep track of updates made to the form, initialized as formStructure
+  setForm: Function, // Function to update the form state
 }
 ```
 Path "/create"
