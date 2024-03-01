@@ -5,16 +5,16 @@
 # Structure
 ```js
 <Router>
-  <App contacts={contacts} setContacts={setContacts}>
+  <App>
     <Route path="/">
-      <Dashboard contacts={contacts}>
+      <Dashboard contacts={contacts} setContacts={setContacts}>
         - <ContactList contacts={contacts}>
           - <ContactListItem contact={contact}>
     <Route path="/contact/:id">
-      <ContactDetails contacts={contacts}/>
+      <ContactDetails />
     </Route>
     <Route path="/create">
-      <CreateContactForm setContacts={setContacts} form={form} setForm={setForm}>
+      <CreateContactForm form={form} setForm={setForm}>
     </Route>
   </App>
 </Router>
