@@ -1,0 +1,8 @@
+3. Style guide
+- plain CSS will be used and everything is in one stylesheet (App.css)
+
+background color red
+font color pink
+font sans serif
+button round border
+input field round border
