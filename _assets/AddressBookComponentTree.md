@@ -16,21 +16,70 @@ COMPONENT TREE GUIDELINES
 
 5. Any specific actions or behaviours that cause navigation / reload or error display
 
+App.jsx:
+state contactInfoList with a setContactInfoList function.
+its an array of objects
+{
+firstName: "",
+lastName: "",
+email: "",
+street: "",
+city: "",
+favouriteColour: "",
+profileImage: "",
+id: null,
+},
+
+    UseEffect fetches the data once the page is loaded. saves it to state.
+
 ContactsListPage:
 
-    state contactsInfo. uses first and last name of each contact.
-    actions: look at contacts in list. click contact to be directed to ContactsDetailsPage for specific contact.
-    route: for ContactListPage is ("/").
+    Props: contactsInfoList. uses first and last name of each contact.
+    Actions: look at contacts in list. click contact to be directed to ContactsDetailsPage for specific contact.
+    Route: for ContactListPage is ("/").
 
-    all pages have a sidebar with navigation to main page. CreateNewContactForm link available only on ContactListPage.
+    All pages have a side-section with navigation to main page and create-new-contact page.
 
-    ContactsDetailsPage:
-        receives contactinfo as props
-        actions: look at contact details for a contact.
-        route: for ContactsDetailsPage is ("/contacts/:id").
-        page background colour is contacts favourite colour.
-        contacts firstName, lastName, email, street, city and profilePicture is displayed
+ContactsDetailsPage:
+
+    Receives contactInfoList as props
+    State: has a state for a singular contact called contactInfo. same structure as contactInfoList
+    Actions: look at contact details for a contact.
+    Route: for ContactsDetailsPage is ("/contacts/:id").
+
+    Parses id from page url
+
+    Has a useEffect that updates whenever the parsed id or the contactInfoList updates.
+    The effect goes through the contactInfoList and finds and setts the contact that matches the parsed id.
+    It renders the given information with two exceptions. the element containing the contact info is coloured to the provided favourite colour of the contact. Their profile image url is displayed as an actual image.
+
+    So, the contacts first name, last name, email, street, city and profilePicture is displayed
 
 CreateNewContactForm:
-actions: can createNew contact through a form.
-route: for CreateNewContactForm is ("/contacts/createNew").
+
+    Actions: can createNew contact through a form.
+    Route: for CreateNewContactForm is ("/contacts/createNew").
+    Takes in setContactInfoList and contactInfoList as props.
+    It has a state for new contact (newContact ) it is a singular object
+    {
+    firstName: "",
+    lastName: "",
+    street: "",
+    city: "",
+    email: "",
+    favouriteColour: "",
+    profileImage: "",
+    }
+
+        handleInputData:
+        Receives input from the form and sets the given input to corresponding Key in the newContact object.
+
+        handleSubmit:
+        is called when user presses the submit button.
+        Calls the MakePostRequestToAPI function.
+
+        MakePostRequestToAPI:
+        Constructs a postRequestOptions constant
+        fetches the post function of the API. creates a new contact in the API.
+        Uses the setContactInfoList function to set the new contact to the contacts list.
+        It then calls navigate to redirect the user to the details-page of the newly created contact.

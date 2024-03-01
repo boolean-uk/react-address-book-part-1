@@ -19,9 +19,9 @@ This could be a plain text description of an object with specific properties, a 
     "city": "testcity",
     "favouriteColour": "#caddea",
     "profileImage": "image url",
-    "id": "number id"
+
   }
 
 ```
 
-create a contact info list that displays the first and last name of each contact in the list. Each contact has a link that will take the user to a page full of details about the contact. A user can also navigate to a page containing a Form for creating a new contact. when the information if filled in and the user submits the form. a new contact is created and added to the contact list.
+Create a contact info list that displays the first and last name of each contact in the list. Each contact has a link that will take the user to a page full of details about the contact. A user can also navigate to a page containing a Form for creating a new contact. When the information if filled in and the user submits the form. A new contact is created and added to the contact list.
