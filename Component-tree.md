@@ -5,6 +5,11 @@ Contains state for all contacts. passes all contacts to Dashboard. includes head
 ## Dashboard
 Displays all contacts, has links to the ContactProfile under each contact, and a button that opens CreateContact
 
+### ContactList
+Pass the individual contacts to ContactListItem
+### ContactListItem
+Render individual contact passed through prop
+
 ## ContactProfile
 Takes a single contact as prop, displays info from that contact,
 
