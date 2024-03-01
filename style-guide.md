@@ -8,6 +8,6 @@
 
 ## Colors
 
-- Button-color: #ed9f6f
-- Form-field-color: #fdffd7
-- page-background-color: #efffe6
+- Button-color: <span style="color: #ed9f6f">#ed9f6f</span>
+- Form-field-color: <span style="color: #fdffd7">#fdffd7</span>
+- page-background-color: <span style="color: #efffe6">#efffe6</span>

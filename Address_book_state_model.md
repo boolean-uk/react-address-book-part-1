@@ -12,3 +12,7 @@ dataObject, along with its associated setter, will gather all form data in a sin
 ## ContactDetails
 
 ContactDetails will contain its own state, contact and setContact, that keeps the data related to a specific individual on the contact list. This data will be fetched in the component, based on the :id param in the url, which is extracted and added to the fetch query.
+
+## ContactList
+
+The contactList component will contain a state that is either undefined or a contact object. This state is passed to the ConfirmDeleteAction, acting as a modal confirmation that the user wishes to delete the contact.
