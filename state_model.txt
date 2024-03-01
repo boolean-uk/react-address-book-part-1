@@ -1,0 +1,22 @@
+App:
+contacts state
+
+Layout:
+no state
+only navigation
+
+CreateContact:
+newContactForm state
+will add new contact to contacts when the user submit the form
+
+ContactList:
+no state
+renders Contacts
+
+Contact:
+no state
+displays contact info and link to ContactDetailPage
+
+ContactDetail:
+no state
+renders more details about contact than you would get from Contact
