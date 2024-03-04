@@ -22,6 +22,7 @@ This allows a user to create a new contact or to edit an existing one.
 
 | Property        | Type    |
 |-----------------|---------|
+| id              | number  |
 | firstName       | string  |
 | lastName        | string  |
 | street          | string  |
