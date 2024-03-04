@@ -16,3 +16,23 @@ An overview of a single contact. Displays all available information about that c
 This allows a user to create a new contact or to edit an existing one.
 
 ![Component Tree](component-tree.png)
+
+## Objects
+### Contact
+
+| Property        | Type    |
+|-----------------|---------|
+| firstName       | string  |
+| lastName        | string  |
+| street          | string  |
+| city            | string  |
+| gender          | string  |
+| email           | string  |
+| jobTitle        | string  |
+| latitude        | number  |
+| longitude       | number  |
+| favouriteColour | string  |
+| profileImage    | string  |
+
+### Contacts
+Array of `Contact`-objects.
