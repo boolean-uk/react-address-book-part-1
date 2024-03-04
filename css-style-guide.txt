@@ -1,0 +1,8 @@
+CSS style guide
+
+For this exercise, I will closely follow the css styling of the previous react-hire-route exercise
+
+Primary font will be Sans Serif
+Text will be left-aligned
+
+The general main menu/layout will be displayed in a grid
