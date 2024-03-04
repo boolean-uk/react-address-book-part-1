@@ -5,6 +5,8 @@ setContacts: A function to update the contacts state.
 {
   contacts: [], // Array of contact objects fetched from the API
   setContacts: Function // Function to update the contacts state
+  handleDeleteContact: Function, // Function to handle contact deletion
+  handleUpdateContact: Function // Function to handle contact update
 }
 State Model for CreateContact
 form: An object representing the form fields for creating a contact.
@@ -27,6 +29,8 @@ contacts: An array containing contact objects passed as props.
 
 {
   contacts: [] // List of contact objects passed as props
+  onDelete: Function // Function to handle contact deletion
+
 }
 State Model for ContactListItem
 contact: An object representing a single contact.
@@ -38,6 +42,8 @@ contact: An object representing a single contact.
     street: '',
     city: ''
   } // Information on a contact passed as prop from ContactList
+    onDelete: Function // Function to handle contact deletion
+
 }
 State Model for ContactDetails
 contact: An object representing the details of a single contact fetched from the API.
@@ -51,4 +57,5 @@ id: The ID of the contact fetched from the URL params.
     street: '',
     city: ''
   } // Information on a contact fetched from API based on contactId
+    handleUpdateContact: Function // Function to handle contact update
 }
