@@ -66,6 +66,9 @@ Renders a form with fields for first name, last name, street, and city.
 Submits the form data to an API to create a new contact.
 Navigates the user back to the Dashboard after successful submission.
 
+I also added two new files for editing and deleting contacts for the extension.
+
+
 How it should look:
 
 - App
@@ -74,3 +77,5 @@ How it should look:
 
   - ContactDetails
   - CreateContactForm
+  - DeleteContact (Extension)
+  - EditContact (Extension)
