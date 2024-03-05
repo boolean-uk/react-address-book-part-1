@@ -1,0 +1,16 @@
+State model
+
+<App/>
+[contacts, setContacts]
+A list of contact objects. 
+Dummy data is initially fetched from 'https://boolean-api-server.fly.dev/alexandra7667/contact' 
+and the state variable is passed as props to
+- <Dashboard/> to be passed to <ContactList/> where the list is rendered to the view
+- <CreateContact/> so another contact object can be manually created and added to the list
+- <ViewContact/> to find a certain contact in the list based on id
+
+<CreateContact/>
+[contactData, setContactData]
+Data gathered from a form.
+[savedAnswers, setSavedAnswers]
+When the form is submitted, the collected data is saved to be sent to an API.
