@@ -1,0 +1,8 @@
+App : contacts []
+├── Dashboard 
+│   ├── ContactList
+│   │   ├── ContactListItem
+│   ├── ContactDetails
+├── CreateContactForm : contact {}
+├── EditContactForm : contact {}
+├── ContactDetails 
