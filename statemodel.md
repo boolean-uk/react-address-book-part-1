@@ -1,8 +1,5 @@
 Dashboard:
 
-contacts: [],
-setContacts: Function,
-
 firstName: string,
 lastName: string,
 street: string,
@@ -11,16 +8,6 @@ city: string,
 ContactList:
 
 contacts: []
-
-ContactListItem:
-
-contact: {
-firstName: string,
-lastName: string,
-street: string,
-city: string,
-
-}
 
 ContactDetails:
 
@@ -33,7 +20,11 @@ city: string,
 
 }
 
-CreateContact:
+Contact: 
+firstName: string,
+lastName: string,
+
+Form:
 
 formStructure = {
     firstName: '',
@@ -44,3 +35,7 @@ formStructure = {
 
 form: formStructure,
 setForm: Function
+
+FormInput:
+
+handleChange: []
