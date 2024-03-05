@@ -1,0 +1,7 @@
+{
+id: 1,
+firstName: Sebastian,
+lastName: Hanssen,
+street: EksempelStreet 29,
+city: Oslo
+}
