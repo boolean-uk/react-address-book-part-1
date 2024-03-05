@@ -7,7 +7,14 @@ Dummy data is initially fetched from 'https://boolean-api-server.fly.dev/alexand
 and the state variable is passed as props to
 - <Dashboard/> to be passed to <ContactList/> where the list is rendered to the view
 - <ViewContact/> to find a certain contact in the list based on id
+- <UpdateContact/> to find a certain contact in the list based on id
 
 <CreateContact/>
 [contactData, setContactData]
-Data gathered from a form to be sent to an API
+A new contact's data, gathered from a form to be sent to an API
+[currentId, setCurrentId]
+A counter keeping track of id to give each new contact as an object property
+
+<UpdateContact/>
+[updatedContactData, setupdatedContactData]
+The contact's current data which can be updated in a form and sent to an API
