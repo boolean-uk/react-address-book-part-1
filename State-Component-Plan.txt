@@ -1,0 +1,76 @@
+STATE MODEL: 
+
+const exampleContact = {
+  id: 2,
+  firstName: 'Jane',
+  lastName: 'Smith',
+  street: '456 Elm St',
+  city: 'Sometown',
+};
+
+im assuming the ID gets assigned automatically, and the input fields require the names, street and city values.
+
+Main endpoint for data: 
+
+- https://boolean-api-server.fly.dev/
+
+user can view a dashboard that displays a list of contacts
+Each contact in the list should be displayed as their first and last names - GET
+
+
+user can click a contact's name to view more details about that contact
+The view should contain the contact's first and last name, as well as the contact's street and city
+
+
+user can create a contact via a form, accessed by clicking a "Create a contact" menu link - POST
+
+
+The form should create a contact with a first and last name, as well as a street and city
+When submitted, the contact data should be sent to an API that saves it
+The user should then be automatically navigated back to the contact list - useNavigate("/")
+
+Allow for deleting a contact - DELETE
+
+Allow for updating a contact's information - PUT
+
+Automatically navigate to the contact list after deleting a contact - useNavigate("/")
+
+Automatically navigate to the single contact information view after updating a contact - useNavigate()
+
+
+COMPONENT TREE: 
+
+App.jsx:	
+
+Manages the overall state.
+Renders the Dashboard component.
+
+Dashboard.jsx:
+
+Displays a list of contacts.
+Maps through the contacts array and renders a ContactListItem for each contact.
+
+ContactListItem.jsx:
+
+Displays the first and last name of a contact.
+Handles the click event to navigate to the ContactDetails component.
+
+ContactDetails.jsx:
+
+Displays detailed information about a contact (first name, last name, street, and city).
+
+
+CreateContactForm.jsx:
+
+Renders a form with fields for first name, last name, street, and city.
+Submits the form data to an API to create a new contact.
+Navigates the user back to the Dashboard after successful submission.
+
+How it should look:
+
+- App
+  - Dashboard
+    - ContactListItem
+
+  - ContactDetails
+  - CreateContactForm
