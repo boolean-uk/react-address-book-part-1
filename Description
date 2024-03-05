@@ -2,9 +2,17 @@ Description plan for the application:
 
 First create a menu with Link items to Contact list and Create
 
-The Contact list (which is a usestate) should show first and last name of the contact, and have a "View" link that opens the profile of the contact. 
+The Contact list (which is a usestate) should show first and last name of the contact, and have a "View" link that opens the profile of the contact.
 
-The contact profile should show additional information about the contact. With a navigate button that returns the user to the contact list. 
+The contact profile should show additional information about the contact. With a navigate button that returns the user to the contact list.
 
-In the Create part there should be a form where the user can input information about the user, and submit the form. The form creates a new user (which is a usestate) and then save it to the API. Then the created contact should be visible for the user in the contact list. 
+In the Create part there should be a form where the user can input information about the user, and submit the form. The form creates a new user (which is a usestate) and then save it to the API. Then the created contact should be visible for the user in the contact list.
 
+(((ADDED)))
+Contact profile has a link to update contact and delete contact.
+
+In delete contact the id gets used to send a DELETE request to the api, which removes the object from the api database.
+
+In update contact the user can write in the fields and submit the form. The fields gets set to a new useState "updateUser" which then overwrites the existing object in the api through a PUT request.
+
+The profile has a map based on the coordinates in the object.
