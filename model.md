@@ -19,7 +19,7 @@ formData: the state of contact form
     object data that users entered the form (firstName, lastName, street, city)
 
 
-Component: Home, ContactList, ContactDetail, Form
+Component: Dashboard, ContactList, ContactItem ContactDetail, CreateContactForm
 
 
 
