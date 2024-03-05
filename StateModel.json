@@ -1,0 +1,11 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "firstName": "Osamah",
+      "lastName": "Al-maliki",
+      "street": "123 Main St",
+      "city": "New York"
+    }
+  ]
+}
