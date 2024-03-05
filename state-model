@@ -1,0 +1,41 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "street": "123 Main St",
+      "city": "New York",
+      "gender": "Male",
+      "jobTitle": "Developer",
+      "email":"my@email.com",
+      "favouriteColour": "#ffffff",
+      "profileImage": "https://www.gravatar.com/avatar/Irma.Stroman54@gmail.com?s=120&d=identicon",
+      "latitude": 63.6812,
+      "longitude": -102.5869
+    
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "street": "456 Elm St",
+      "city": "Los Angeles"
+    }
+  ],
+  "contact": {
+    "id": "1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "street": "123 Main St",
+    "city": "New York",
+    "gender": "Male",
+    "jobTitle": "Developer",
+    "email":"my@email.com",
+    "favouriteColour": "#ffffff",
+    "profileImage": "https://www.gravatar.com/avatar/Irma.Stroman54@gmail.com?s=120&d=identicon",
+    "latitude": 63.6812,
+    "longitude": -102.5869
+  
+  }
+}
