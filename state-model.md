@@ -1,7 +1,6 @@
 {
-  "firstName": "Rick",
-  "lastName": "Sanchez",
-  "street": "Morty Lane",
-  "city": "Jerryville",
-  "email": "rick@sanchez.com",
+    "firstName": "Janice",
+    "lastName": "Aufderhar",
+    "street": "Cole Forest",
+    "city": "Madera"
 }
