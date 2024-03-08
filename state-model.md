@@ -11,7 +11,12 @@ Each contact in `ContactList` is represented by a contact card which shows the m
 * Job title
 * Email
 ### Contact
-An overview of a single contact. Displays all available information about that contact.
+An overview of a single contact. Displays all available information about that contact. Has a ContactEditor for editing the contact.
+
+##### ContactDetails
+Displays all details about the provided contact.
+
+
 ### ContactEditor
 This allows a user to create a new contact or to edit an existing one.
 
