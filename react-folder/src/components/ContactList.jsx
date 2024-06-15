@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const ContactList = ({ contacts, viewContactDetails }) => {
   return (
     <div>
-      <h2>Contact</h2>
+      <h2>Contacts</h2>
       <ul>
-        {contacts.map((contact, index) => (
-          <li key={index} onClick={() => viewContactDetails(contact)}>
+        {contacts.map(contact => (
+          <li key={contact.id}>
             {contact.firstName} {contact.lastName}
+            <button onClick={() => viewContactDetails(contact.id)}>View More</button>
           </li>
         ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
 export default ContactList;

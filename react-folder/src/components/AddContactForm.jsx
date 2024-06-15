@@ -1,25 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const AddContactForm = ({ addContact }) => {
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
-  const [street, setStreet] = useState('')
-  const [city, setCity] = useState('')
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [street, setStreet] = useState('');
+  const [city, setCity] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    addContact({ firstName, lastName, street, city })
-    setFirstName('')
-    setLastName('')
-    setStreet('')
-    setCity('')
-  }
+    addContact({ firstName, lastName, street, city });
+    setFirstName('');
+    setLastName('');
+    setStreet('');
+    setCity('');
+  };
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2> Create Contact</h2>
+      <h2>Create Contact</h2>
       <div>
-        <label>First Name: </label>
+        <label>First Name:</label>
         <input 
           type="text" 
           value={firstName} 
@@ -27,7 +27,7 @@ const AddContactForm = ({ addContact }) => {
         />
       </div>
       <div>
-        <label>Last Name: </label>
+        <label>Last Name:</label>
         <input 
           type="text" 
           value={lastName} 
@@ -35,7 +35,7 @@ const AddContactForm = ({ addContact }) => {
         />
       </div>
       <div>
-        <label>Street: </label>
+        <label>Street:</label>
         <input 
           type="text" 
           value={street} 
@@ -43,7 +43,7 @@ const AddContactForm = ({ addContact }) => {
         />
       </div>
       <div>
-        <label>City: </label>
+        <label>City:</label>
         <input 
           type="text" 
           value={city} 
@@ -52,7 +52,7 @@ const AddContactForm = ({ addContact }) => {
       </div>
       <button type="submit">Create</button>
     </form>
-  )
-}
+  );
+};
 
-export default AddContactForm
+export default AddContactForm;
