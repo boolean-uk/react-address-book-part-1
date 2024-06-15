@@ -51,6 +51,7 @@ export default App
 */
 
 
+/*
 import React, { useState, useEffect } from 'react'
 import ContactList from './components/ContactList'
 import ContactDetails from './components/ContactDetails'
@@ -141,4 +142,4 @@ const App = () => {
 
 export default App
 
-
+*/

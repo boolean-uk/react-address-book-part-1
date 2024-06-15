@@ -1,3 +1,5 @@
+/*
+
 import React from 'react';
 
 const ContactList = ({ contacts, viewContactDetails }) => {
@@ -17,3 +19,4 @@ const ContactList = ({ contacts, viewContactDetails }) => {
 };
 
 export default ContactList;
+*/
