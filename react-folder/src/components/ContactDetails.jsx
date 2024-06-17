@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 
 const ContactDetails = ({ contact, onClose }) => {
@@ -12,4 +13,5 @@ const ContactDetails = ({ contact, onClose }) => {
   );
 };
 
-export default ContactDetails;
+export default ContactDetails
+*/

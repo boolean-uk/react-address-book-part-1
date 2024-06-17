@@ -53,8 +53,8 @@ const AddContactForm = ({ addContact }) => {
       </div>
       <button type="submit">Create</button>
     </form>
-  );
-};
+  )
+}
 
 export default AddContactForm
 */
