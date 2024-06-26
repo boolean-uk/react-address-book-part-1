@@ -14,7 +14,7 @@ export default function ContactDetail() {
         getContact()
     }, [])
 
-    if (!contactToDisplay) {
+    if (Object.values(contactToDisplay).length === 0) {
         return <p>Loading...</p>
     }
 

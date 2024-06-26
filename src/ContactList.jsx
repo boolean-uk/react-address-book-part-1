@@ -7,7 +7,7 @@ export default function ContactList() {
   useEffect(() => {
     async function getData() {
       const data = await fetch(
-        "https://boolean-api-server.fly.dev/MrStashy/contact"
+        "https://boolean-uk-api-server.fly.dev/MrStashy/contact/"
       );
       const json = await data.json();
       setContacts(json);
