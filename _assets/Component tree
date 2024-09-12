@@ -1,0 +1,18 @@
+App/
+  Has a Menu/ and a router to the right page. Handles state.contactList, which it fills with a few contacts on the first render
+  
+
+Menu/  (nav)
+  Header, has a link with navigation to dashboard and to createContactForm
+
+
+Dashboard/  (page "/")
+  Gets state.contactList from app, displays it 
+  
+
+Contact/    (page "/contact/:id")
+  Gets state.contactList from app, displats only the contact it needs
+
+
+CreateContactForm/    (page "/create")
+  Gets state.setContactList from the app. Gives users a form and adds data to contactList when submitted
