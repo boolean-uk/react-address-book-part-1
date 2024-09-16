@@ -1,0 +1,29 @@
+1. State model
+
+contacts = [{
+firstname: "",
+lastName: "",
+gender: "",
+email: "",
+jobTitle: "",
+street: "",
+latitute: 
+longtitude:
+favouriteColour: ""
+profileimage: ""
+id: 
+}, {}, {}...]
+
+contact = {
+firstname: "",
+lastName: "",
+gender: "",
+email: "",
+jobTitle: "",
+street: "",
+latitute: 
+longtitude:
+favouriteColour: ""
+profileimage: ""
+id: 
+}

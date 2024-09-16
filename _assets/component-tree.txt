@@ -1,0 +1,16 @@
+2. Component tree
+
+src/
+App.jsx (contacts, contact)
+index.jsx
+	pages/
+		Contacts.jsx
+		components/
+			ListContacts.jsx (contacts)
+			AddContact.jsx (contact)
+	pages/
+		Contact.jsx
+		components/
+			ViewContact.jsx	(contact)
+styles/
+App.css
