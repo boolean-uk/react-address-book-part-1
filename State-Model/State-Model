@@ -1,0 +1,9 @@
+State-Model-Plan
+
+createNewContacts;
+
+- id: (number)
+- firstName: (string)
+- lastName: (string)
+- street: (string)
+- city: (string)
