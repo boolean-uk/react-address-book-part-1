@@ -1,0 +1,8 @@
+Statemodel:
+ContactList
+{
+ "firstName" : string
+ "lastName" : string
+ "street" : string
+ "city" : string 
+}
