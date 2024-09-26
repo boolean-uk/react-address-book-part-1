@@ -1,0 +1,10 @@
+Back To Contacts List
+
+The user is navigating back to the contacts list
+
+Options:
+
+- Option 1: Click back to the contact list
+  - From: View Contact Info
+  - To: Initial State
+  - Actions: Navigate back to the contact list

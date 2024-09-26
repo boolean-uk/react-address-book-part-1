@@ -1,0 +1,10 @@
+Implement Remaining User Properties
+
+The user can see more information about a specific contact
+
+Options:
+
+- Option 1: Fetch and Display Remaining User Properties
+    - From: View Contact Info
+    - To: View Contact Info
+    - Actions: Fetch additional user properties from the API and display them in the contact details view(username, email, phone, company)

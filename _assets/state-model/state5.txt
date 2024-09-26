@@ -1,0 +1,10 @@
+Delete a Contact
+
+The user can delete a specific contact from the contacts list
+
+Options:
+
+- Option 1: Click on "Delete" for a contact
+    - From: Contacts list
+    - To: Contacts list
+    - Actions: Send a request to the API to delete the contact and the contact list will be automatically updated

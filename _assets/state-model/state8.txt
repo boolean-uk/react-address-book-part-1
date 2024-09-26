@@ -1,0 +1,10 @@
+Use Lat and Lng for Map
+
+The user can see on a map the position of a specific contact
+
+Options:
+
+- Option 1: Display Contact's Position on a Map
+    - From: View Contact Info
+    - To: View Contact Info
+    - Actions: Use the contact's lat and lng coordinates to render their position on a map within the contact details view

@@ -1,0 +1,15 @@
+Create Contact Form
+
+The user is filling out a form to create a new contact
+
+Options:
+
+- Option 1: Submit Contact Form
+  - From: Create Contact Form
+  - To: Initial State
+  - Actions: Send contact data (first name, last name, street, city) to the API for saving the new contact
+
+- Option 2: Cancel Contact Form
+  - From: Create Contact Form
+  - To: Initial State
+  - Actions: Discard the form and navigate back to the contact list
