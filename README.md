@@ -41,3 +41,4 @@ Using the list of requirements in the section below, create plans or diagrams th
 
 ## Example application
 ![](./_assets/address-book.gif)
+
