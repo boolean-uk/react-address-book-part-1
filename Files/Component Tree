@@ -1,0 +1,8 @@
+App
+├── Navbar
+│   └── CreateContactLink
+├── Dashboard
+│   ├── ContactList
+│   │   └── ContactItem (state: contact details)
+│   └── ContactDetails (state: selected contact details)
+└── CreateContactForm (state: form data)

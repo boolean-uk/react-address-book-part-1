@@ -1,0 +1,9 @@
+Contect model
+
+{
+  "id": 1,
+  "firstName": "John",
+  "lastName": "Doe",
+  "street": "123 Main St",
+  "city": "Anytown"
+}

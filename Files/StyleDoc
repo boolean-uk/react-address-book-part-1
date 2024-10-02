@@ -1,0 +1,17 @@
+Colors:
+Primary Color: #3498db (blue)
+Secondary Color: #2ecc71 (green)
+Text Color: #333333 (dark grey)
+Background Color: #f5f5f5 (light grey)
+
+Fonts:
+Primary Font: ‘Roboto’, sans-serif
+Secondary Font: ‘Open Sans’, sans-serif
+
+Button Styles:
+Primary Button: background-color: #3498db; color: #ffffff; border-radius: 5px;
+Secondary Button: background-color: #2ecc71; color: #ffffff; border-radius: 5px;
+
+Form Styles:
+Input Fields: border: 1px solid #cccccc; padding: 10px; border-radius: 5px;
+Labels: font-weight: bold; margin-bottom: 5px;
