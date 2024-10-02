@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times', cursive;
+    background-color: #f5f5dc;
+    color: #4b5320;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  button.primary {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  
+  button.secondary {
+    background-color: #8e44ad;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  
+  input {
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #4b5320;
+  }
