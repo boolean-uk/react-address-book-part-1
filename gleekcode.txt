@@ -1,0 +1,44 @@
+
+
+/g State Model
+	Contact
+		str firstname 
+		str lastname
+		str number
+		str street
+		str city
+
+	ContactFormData
+		str firstname 
+		str lastname
+		str number
+		str street
+		str city
+
+	Contacts
+		Contact[] contacts
+
+
+
+/g Components
+	ContactView
+		STATE:
+		Contact
+
+	ContactList 
+		STATE:
+		Contacts
+	DashBoard
+		STATE:
+		
+	ContactForm
+		STATE:
+		ContactFormData
+	App 
+		STATE:
+		Contacts
+		
+	Main(root) 
+		'
+	Main(root)-has->App-has->DashBoard-has->ContactList-has->ContactView
+	DashBoard-has->ContactForm
